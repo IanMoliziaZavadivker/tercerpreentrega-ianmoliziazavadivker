@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&family=Roboto:ital@0;1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+}
+
+footer{
+    transition-property: all;
+    transition-duration: 0.5s;
+    width: 50px;
+    background-color: rgb(245, 245, 220);
+    padding: 1px;
+    width: auto;
+}
+
+footer:hover{
+    animation: messii 3s;
+}
+@keyframes messii {
+    0%{
+        background-color: rgb(151, 104, 39);
+    }
+    50%{background-color:beige;
+    border-radius: 25%;}
+}
+
+
+

@@ -1,0 +1,144 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital@0;1&family=Roboto:ital@0;1&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  background-color: beige;
+}
+
+footer {
+  transition-property: all;
+  transition-duration: 0.5s;
+  width: 50px;
+  background-color: rgb(245, 245, 220);
+  padding: 1px;
+  width: auto;
+}
+
+footer:hover {
+  -webkit-animation: messii 3s;
+          animation: messii 3s;
+}
+
+@-webkit-keyframes messii {
+  0% {
+    background-color: rgb(151, 104, 39);
+  }
+  50% {
+    background-color: beige;
+    border-radius: 25%;
+  }
+}
+
+@keyframes messii {
+  0% {
+    background-color: rgb(151, 104, 39);
+  }
+  50% {
+    background-color: beige;
+    border-radius: 25%;
+  }
+}
+.imggastro {
+  width: 500px;
+  margin-left: 150px;
+  margin-bottom: 25px;
+}
+
+.comida, .comidait {
+  text-align: center;
+  padding: 10px;
+  margin: 10px;
+}
+
+.comidait {
+  text-decoration: underline;
+  color: saddlebrown;
+}
+
+.flex {
+  font-size: large;
+}
+.flex ul {
+  display: flex;
+}
+.flex ul li {
+  font-size: larger;
+  padding: 10px;
+  color: rgb(0, 0, 0);
+  font-weight: 400;
+}
+
+h1 {
+  color: rgb(0, 0, 0);
+  margin: 5px;
+  padding: 20px;
+  border: 10px solid rgb(121, 80, 47);
+  text-align: center;
+}
+
+h2 {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 10px;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+  line-height: 40px;
+  letter-spacing: 5px;
+  word-spacing: 7px;
+  text-transform: uppercase;
+  color: rgb(0, 0, 0);
+}
+
+.paisesimg {
+  border-radius: 10%;
+  margin: 20px;
+}
+
+.paisesimg:hover {
+  opacity: 60%;
+}
+
+.ico {
+  transition-property: all;
+  transition-duration: 0.5s;
+  width: 50px;
+}
+
+.ico:hover {
+  transform: scale(2);
+}
+
+.row {
+  margin-bottom: 15px;
+}
+
+.row:hover {
+  opacity: 60%;
+}
+
+.imginicio {
+  padding: 10px;
+  margin: 5px;
+  margin-left: 45px;
+  margin-bottom: 20px;
+}
+
+.imggastro:hover {
+  opacity: 90%;
+}
+
+.container-fluid {
+  border: 10px solid rgb(121, 80, 47);
+}
+
+.pregimg {
+  width: 1000px;
+  margin-left: 260px;
+}/*# sourceMappingURL=estilos.css.map */

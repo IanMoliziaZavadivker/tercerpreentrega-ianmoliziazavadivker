@@ -1,0 +1,21 @@
+@mixin sizes ($width){
+    width: $width;
+}
+
+.imggastro{
+    @include sizes(500px );
+    margin-left: 150px;
+    margin-bottom: 25px;
+}
+
+.comida{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.comidait{
+    @extend .comida;
+    text-decoration: underline;
+    color: saddlebrown;
+}
